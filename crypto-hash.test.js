@@ -9,5 +9,5 @@ describe('cryptoHash()', () => {
         expect(cryptoHash('one', 'two', 'three')).toEqual(cryptoHash('two', 'one', 'three'))
     });
 
-  
+
 });
